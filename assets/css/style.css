@@ -22,6 +22,22 @@
     background-color: #525252;
 }
 
+/*Special Paddings/Margins/Text*/
+
+h1, h2, h3, h4 {
+    margin:0;
+}
+
+.uppercase {
+    text-transform:uppercase;
+}
+
+.general-sub {
+    font-family:"Exo", sans-serif;
+    font-weight:300;
+    color:#fafafa;    
+}
+
 /* Heading */
 
 header {
@@ -61,7 +77,7 @@ header {
 }
 
 .list-inline-item:not(:last-child) {
-    margin: 0 !important;
+    margin: 0 /*!important*/;
 }
 
 .menucontainer {
@@ -110,6 +126,6 @@ header {
 
 /* Hover.css */
 .hvr-sweep-to-bottom:before {
-    background:rgba(0, 0, 0, 0.2) !important;
+    background:rgba(0, 0, 0, 0.2) /*!important*/;
     height:120px;
 }
